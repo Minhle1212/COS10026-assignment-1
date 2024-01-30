@@ -380,6 +380,14 @@ section .product-head{
     background-color: #f74f10;
 }
 
+/* footer */
+footer{
+    width: 100%;
+    margin-top: 40px;
+    position: absolute;
+    background-color: #0093c0;
+}
+
 @keyframes animate{
     0%{
       width:0ch;
@@ -394,3 +402,5 @@ section .product-head{
     }
     
   }
+
+  /* index page end  */
