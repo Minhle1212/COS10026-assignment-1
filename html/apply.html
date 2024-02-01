@@ -5,14 +5,19 @@
     <meta name="description" content="" >
     <meta name="keywords" content="" >
     <meta name="author" content="">
-    <title></title>
+    <link rel="stylesheet" href="styles/apply.css">
+   <title>Application Form</title>
 </head>
 
 <body>
-    <form method="post" action="http://mercury.swin.edu.au/it000000/formtest.php">
-    <h1>Job Application Form</h1>
-    <p>Please fill out all sections</p>
+    <form  method="post" action="http://mercury.swin.edu.au/it000000/formtest.php">
+    <fieldset class="form-all">
     
+    <div class="header">
+    <h1>Job Application Form</h1>
+    <p>Please fill out all sections</p><hr>
+    </div>
+
     <fieldset>
         <p><label for="job_num">Job Reference Number</label>
         <input type="text" name="job_num" id="job_num" pattern="[A-Za-z0-9]{5}" maxlength="5" required="required"  size="15">
@@ -24,7 +29,7 @@
         <input type="text" name="lname" id="lname" required="required" pattern="^[a-zA-Z ]+$" maxlength="30" size="15">
         </p>
 
-        <p><label for="birthday">Date</label>
+        <p><label for="birthday">Date of birth</label>
         <input name="birthday" id="birthday" type="text" placeholder="dd/mm/yyyy" 
         pattern="\d{1,2}/\d{1,2}/\d{4}" maxlength="10" size="15" required="required">
         </p>
@@ -111,7 +116,7 @@
         
     <input type= "submit" value="Book">
 	<input type= "reset" value="Reset Form">
-
+</fieldset>
 </form>
 </body>
 </html>

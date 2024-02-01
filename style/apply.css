@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(17, 17, 27);
+}
+
+.form-all {
+    border-radius : 16px !important;
+    border : 2px solid #7289DA;
+    background-color: rgb(66, 71, 86);
+}
+ 
+form {
+ width: 752px;
+ 
+}
+
+
+
+
+label, legend, .header{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input, select, textarea {
+    border: 1px solid;
+    background-color: rgb(131, 136, 149)
+    
+}
+
