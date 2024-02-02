@@ -77,3 +77,18 @@ header .login a:hover{
     color: #f74f10;
     text-decoration: underline;
 }
+
+/* back page  */
+.back{
+    margin-top: 70px;
+    margin-left: 100px;
+}
+.back a{
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+}
+.back a:hover{
+    text-decoration: underline;
+}
+
