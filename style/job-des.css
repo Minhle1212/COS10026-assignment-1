@@ -102,6 +102,7 @@ header .login a:hover{
     color: white;
     margin-top: 60px;
     margin-left: 100px;
+    max-width: 1500px;
     
 }
 .brief h2{
