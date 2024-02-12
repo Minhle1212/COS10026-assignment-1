@@ -78,63 +78,77 @@ header .login a:hover{
     text-decoration: underline;
 }
 
-
-/* title  */
-.title{
+/* back page  */
+.back{
+    margin-top: 70px;
+    margin-left: 100px;
+}
+.back a{
+    text-transform: capitalize;
     color: white;
-    margin-top: 40px;
-    background-color: #0093c0;
-    text-align: center;
-    height: 300px;
+    text-decoration: none;
+    border: 1px solid ;
+    padding: 5px 5px;
+    border-radius: 10px;
+    background: #0093c0;
 }
-.title h2{
-    padding-top: 40px;
-    font-size: 40px;
+.back a:hover{
+    background: #f74f10;
+    transition: 2s;
 }
-.title p{
-    margin-top: 40px;
-    font-size: 20px;
+
+/* description */
+.brief{
+    color: white;
+    margin-top: 60px;
+    margin-left: 100px;
+    max-width: 1500px;
     
 }
-/* description */
-.description{
-    margin-top: 100px;
-    color: white;
-    margin-left: 200px;
-    font-size: 18px;
+.brief h2{
+    font-size: 40px;
     font-weight: bold;
 }
+.brief .description{
+    margin-top: 30px;
+}
+.description h3{
+    font-size: 28px;
+    font-weight: bold;
+}
+.description p{
+    margin-top: 20px;
+    font-size: 18px;
+}
 
-<<<<<<< HEAD
-#lname2 {
-    margin-left: 90px;
-}
-=======
-/* job  */
-.job-list{
-    color: white;
-    margin-top: 50px;
-    max-width: 100%;
-    margin-left: 70px;
-}
-.job{
-    display: flex;
-    justify-content: space-evenly;
+.respon{
     margin-top: 40px;
-    
 }
-.job a{
-    color: white;
-    flex-basis: 30%;
-    text-decoration: none;
-    cursor: pointer;
-    
+.respon h3{
+    font-size: 28px;
+}
+.respon ul{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.respon ul li{
+    margin-top: 10px;
 }
 
-.job a:hover{
-    scale: 1.1;
-    text-decoration: underline;
-    transition: 2s;
+.require{
+    margin-top: 40px;
+}
+.require h3{
+    font-size: 28px;
+}
+.require ul{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.require ul li{
+    margin-top: 10px;
 }
 
 /* footer */
@@ -222,4 +236,3 @@ form button{
     background: #767676;
     border-radius: 2px;
 }
->>>>>>> 9fefc6c4b160421767f65654703a0e8edc38de02
