@@ -105,11 +105,6 @@ header .login a:hover{
     font-weight: bold;
 }
 
-<<<<<<< HEAD
-#lname2 {
-    margin-left: 90px;
-}
-=======
 /* job  */
 .job-list{
     color: white;
@@ -222,4 +217,3 @@ form button{
     background: #767676;
     border-radius: 2px;
 }
->>>>>>> 9fefc6c4b160421767f65654703a0e8edc38de02

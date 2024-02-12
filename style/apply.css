@@ -1,5 +1,6 @@
 body {
-    background-image: url("https://wallpapersmug.com/download/1600x900/ba787c/black-dark-cubes-abstract.jpg");
+    background-image: url("/COS10026-assignment-1/images/black-dark-cubes-abstract.jpg");
+    background-size: cover;
 }
 
 .form-all, fieldset {
@@ -75,14 +76,52 @@ form {
     background-color: blanchedalmond;
 }
 
-.submit{
- border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
+.button1{
+ display: inline;
+ background:  rgba(227, 230, 235, 0.722);
+ color: white;
+ text-transform: uppercase;
+ font-size: 1.2em;
+ letter-spacing: 0.1em;
+ font-weight: 300px;
+ padding: 3px 15px;
+ transition: 0.5s;
+ border-radius: 6px;
+
+}
+
+
+.button1:hover {
+    letter-spacing: 0.25em;
+    background: #1eff8b;
+    box-shadow: 0 0 37px #1eff8b;
+    cursor: pointer;
+}
+
+.button2 {
+    display: inline;
+    justify-content: center;
+    background:  rgba(0, 0, 0, 0.381);
+    color:  rgb(227, 230, 235);
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    font-weight: 400px;
+    padding: 3px 15px;
+    transition: 0.5s;
+    border-radius: 6px;
+    text-align: center;
+}
+
+
+.button2:hover {
+    letter-spacing: 0.25em;
+    background: #1e9bff;
+    box-shadow: 0 0 37px #1e9bff;
+    cursor: pointer;
+}
+
+.button{
+    display: flex;
+    justify-content: center ;
 }
