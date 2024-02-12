@@ -104,3 +104,7 @@ header .login a:hover{
     font-size: 18px;
     font-weight: bold;
 }
+
+#lname2 {
+    margin-left: 90px;
+}
