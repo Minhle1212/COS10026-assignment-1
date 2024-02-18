@@ -1,3 +1,8 @@
+*{
+    
+    ;;
+}
+
 body {
     background-image: url("/COS10026-assignment-1/images/black-dark-cubes-abstract.jpg");
     background-size: cover;
@@ -7,7 +12,7 @@ body {
     border-radius: 16px ;
     border: 3px inset #485996;
     background-color: rgb(66, 71, 86);
-    box-shadow: 8px 3px 5px;
+    box-shadow: 4px 3px 3px 4px;
 }
  
 #form-align  {
@@ -29,7 +34,7 @@ form {
 
 .form-font, legend, #header{
     color: blanchedalmond;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 18px;
 }
 
@@ -76,7 +81,7 @@ form {
     background-color: blanchedalmond;
 }
 
-.button1{
+.button1, .back_button{
  display: inline;
  background:  rgba(227, 230, 235, 0.722);
  color: white;
@@ -201,3 +206,25 @@ form {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
   }
+
+
+   .back_button{
+    display: inline;
+    background:  rgba(57, 124, 232, 0.722);
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    font-weight: 300px;
+    padding: 2px 10px;
+    transition: 0.5s;
+    border-radius: 6px;
+   
+   }
+   
+   .back_button:hover {
+       letter-spacing: 0.25em;
+       background: #a18439;
+       box-shadow: 0 0 37px #1eff8b;
+       cursor: pointer;
+   }
