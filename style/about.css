@@ -230,10 +230,11 @@ form button{
 
 .mem_box{
     display: grid;
-    grid-template-columns: 50% 15%;
+    grid-template-columns: 50% 20%;
     line-height: 1.6;
     justify-content: center;
     margin-top: 20px;
+    row-gap: 40px;
 }
 
 .mem_details{
@@ -246,11 +247,23 @@ form button{
 .mem_info{
     display: flex;
     flex-direction: row;
-    align-items:
 }
 
 .mem_desc{
+    display: flex;
+    flex-direction: column;
     margin-top: 20px;
+}
+
+.mem_socials{
+    float: left;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.mem_socials a:hover{
+    color: #f74f10;
+    transition: 1s;
 }
 
 .mem_dt{
@@ -261,15 +274,17 @@ form button{
     font-weight: bold;
 }
 
-.single_info{
-    display: grid;
-    grid-template-columns: 25% 1fr;
-    grid-gap: 5%;
+.mem_dd a:hover{
+    color: #f74f10;
+    text-decoration: underline;
+    transition: 1s;
+}
+
+.figure{
+    text-align: center;
 }
 
 .mem_pfp img{
-    display: block;
-    margin: auto;
     width: 100%;
     height: auto;
     max-width: 384px;
@@ -277,12 +292,48 @@ form button{
     border-radius: 50%;
 }
 
-.mem_pfp figcaption{
-    text-align: center;
-}
-
 .mem_extra{
     text-align: center;
     font-weight: bold;
     font-size: 200%;
+}
+
+.schedule{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.schedule p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 5px solid black;
+    background-color: #202530;
+}
+
+td:hover, th:hover{
+    background-color: #f74f10;
+    transition: 1s;
+}
+
+.table tr{
+    height: 75px;
+}
+
+.table th{
+    width: 150px;
+    font-size: 125%;
 }
