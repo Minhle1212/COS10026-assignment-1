@@ -13,7 +13,7 @@
    <title>Application Form</title>
 </head>
 
-<body>
+<body id="apply-background">
 <div id="form-align">
     <form  method="post" action="http://mercury.swin.edu.au/it000000/formtest.php">
     <fieldset class="form-all">
@@ -67,7 +67,7 @@
         </p>
         
         <p><label for="tutor" class="form-font">State</label>
-            <select required="required" name="tutor" class="state_choice" >
+            <select required="required" name="tutor" class="state_choice" id="tutor">
             <option class= "state_choice" value="" disabled hidden selected>Please select a choice</option>
             <option class="state_choice" value="VIC">VIC</option>
             <option class="state_choice" value="NSW">NSW</option>
@@ -90,7 +90,7 @@
         <legend>Contact Info</legend>
 
         <p><label for="mail" class="form-font" >Email</label>
-            <input id="mail" name="mail" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required="required">
+            <input type="email" id="mail" name="mail" required="required">
             
 
         </p>
@@ -106,7 +106,7 @@
        
         <p> 
             <label class="checkbox_name form-font" for="HTML">HTML
-            <input type="checkbox" name="tech[]" value="HTML" required="required" id="HTML">
+            <input type="checkbox" name="tech[]" value="HTML" checked id="HTML">
             <span class="tick"></span>
             </label>
         
@@ -152,8 +152,9 @@
 
 </form>
 </div>
-<form action="\COS10026-assignment-1\html\index.html">
-    <button class="back_button" type="submit">Back to Homepage</button>
+
+<form action="\COS10026-assignment-1\html\job-list.html">
+    <button class="back_button" type="submit" >Back to Homepage</button>
  </form>
 
 
