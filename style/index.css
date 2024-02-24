@@ -521,6 +521,21 @@ form button{
     .second-cont .main-cont h4{
         font-size: 18px;
     }
+
+    section .product-head h2{
+        font-size: 30px;
+    }
+
+    section .product1 .image img{
+        width: 480px;
+    }
+    section .product2 .image img{
+        width: 450px;
+    }
+    section .product2 .product-cont{
+        padding-left: 20px;
+        padding-bottom: 40px;
+    }
     .founder .detail .detail-img img{
         width: 500px;
     }
@@ -533,7 +548,31 @@ form button{
     .founder .detail .detail-text #main{
         font-size: 15px;
     }
+    footer .col .social{
+        font-size: 20px;
+    }
+}
 
+@media(max-width:1228px){
+    .founder .detail .detail-img img{
+        width: 400px;
+    }
+    .founder .detail .detail-text h5{
+        font-size: 8px;
+    }
+    .founder .detail .detail-text h3{
+        font-size: 15px;
+    }
+    .founder .detail .detail-text #main{
+        font-size: 12px;
+    }
+    .founder .detail .detail-text #sub{
+        font-size: 10px;
+    }
+    footer .row{
+        width: 80%;
+    }
+}
 
  
 
