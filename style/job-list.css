@@ -7,6 +7,13 @@ body{
    overflow-x: hidden;
    background-color: #151922;
    
+   
+}
+
+/* job-list page */
+
+.background {
+    background-image: url("/COS10026-assignment-1/images/index-page.jpg");
 }
 
 header{
@@ -15,7 +22,7 @@ header{
 }
     
 
-/* index page(HOang Minh) */
+/* header */
 
 .menu{
    width: 100%;
@@ -37,7 +44,7 @@ header{
 }
 
 .menu .nav-bar a{
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     cursor: pointer;
     position: relative;
@@ -72,30 +79,36 @@ header .login a{
 }
 
 header .login a:hover{
-    zoom: 1.1;
+    zoom: 1.25;
     color: #f74f10;
     text-decoration: underline;
+    
 }
 
 
 /* title  */
 .title{
-    color: white;
-    margin-top: 40px;
+    color: black;
+    margin-top: 30px;
     background-color: #0093c0;
     text-align: center;
-    height: 300px;
+    height: 250px;
+    border-radius: 7px;
+
 }
-.title h2{
-    padding-top: 40px;
-    font-size: 40px;
+.title h1{
+    padding-top: 30px;
+    font-size: 35px;
 }
 .title p{
-    margin-top: 40px;
+    margin-top: 30px;
     font-size: 20px;
     
 }
-/* description */
+
+/* main */
+
+/* job description */
 .description{
     margin-top: 20px;
    
@@ -103,47 +116,57 @@ header .login a:hover{
 }
 
 .brief {
-    border: solid 2px;
-    
-    padding: 30px;
+    border: solid 1px;
+    padding: 40px;
+    margin: auto;
     padding-top: 10px;
     line-height: 28px;
 }
 
-.respon ul, .require ul  {
-    margin-left: 20px;
+.respon ul, .skills ul, aside ol  {
+    margin-left: 25px;
 }
 
 .job_name {
     margin-top: 20px;
-    font-size: 24px;
+    font-size: 30px;
 }
 
-/* job  */
-.job-list{
-    color: white;
-   
-    margin-top: 50px;
-    max-width: 100%;
-    margin-left: 25px;
-}
+
 .job{
-    display: flex;
-    justify-content: left;
+    margin-left: 10px;
     margin-top: 20px;
-    max-width: 60%;
-    background-color: rgb(154, 141, 141);
+    max-width: 55%;
+    background-color: rgb(182, 227, 220);
     color: #151922;
+    border: solid 7px rgb(177, 187, 148);
+    border-radius: 7px;
+    
     
 }
 
 
 aside{
-    
-    border: solid 2px;
-    width: 25%;
+    border: dashed 3px;
+    border-radius: 7px;
+    width: 40%;
+    padding: 30px;
     float: right;
+    color: rgb(74, 43, 43);
+    margin-right: 10px;
+    line-height: 30px;
+    margin-left: 10px;
+    font-size: 18px;
+    background-color: #dae1e6;
 }
+
+aside a:hover {
+    zoom: 1.15;
+    color: #445abc;
+    text-decoration:  underline;
+}
+
+
 
 
 
