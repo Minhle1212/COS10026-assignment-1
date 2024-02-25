@@ -7,6 +7,7 @@
 body{
     overflow-x: hidden;
     background-color: #151922;
+    background-image: url("/COS10026-assignment-1/images/index-page.jpg");
 }
 
 header{
@@ -19,16 +20,18 @@ a{
 
 /* index page(HOang Minh) */
 
+/* index page(HOang Minh) */
+
 .menu{
-   width: 100%;
-   height: 100%;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .menu .logo{
-    margin-left: 50px;
-    padding-top: 20px;
+    margin-left: 5%;
+    padding-top: 2%;
 }
 .menu .logo img{
     max-width: 100px;
@@ -95,7 +98,6 @@ footer{
     display: flex;
     width: 85%;
     flex-wrap: wrap;
-    
     justify-content: space-between;
 }
 .col{
@@ -176,26 +178,118 @@ form button{
     }
 }
 
-@keyframes blink{
-    0%{
-      opacity: 0;
-    } 
+@media(max-width:1342px){
+    .head-cont .main-cont h1{
+        font-size: 28px;
+    }
+    .head-cont .main-cont h4{
+        font-size: 15px;
+    }
+    
+    .head-cont .main-cont .order button{
+        font-size: 15px;
+        width: 200px;
+        height: 40px;
+    
+    }
+    .head-cont .image img{
+        width: 530px;
+    }
+    .sub-cont h2{
+        font-size: 30px;
+    }
+    .second-cont .image img{
+        width: 350px;
+    }
+    .second-cont .main-cont h4{
+        font-size: 18px;
+    }
+
+    section .product-head h2{
+        font-size: 30px;
+    }
+
+    section .product1 .image img{
+        width: 480px;
+    }
+    section .product2 .image img{
+        width: 450px;
+    }
+    section .product2 .product-cont{
+        padding-left: 20px;
+        padding-bottom: 40px;
+    }
+    .founder .detail .detail-img img{
+        width: 500px;
+    }
+    .founder .detail .detail-text h5{
+        font-size: 10px;
+    }
+    .founder .detail .detail-text h3{
+        font-size: 20px;
+    }
+    .founder .detail .detail-text #main{
+        font-size: 15px;
+    }
+    footer .col .social{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:1228px){
+    .founder .detail .detail-img img{
+        width: 400px;
+    }
+    .founder .detail .detail-text h5{
+        font-size: 8px;
+    }
+    .founder .detail .detail-text h3{
+        font-size: 15px;
+    }
+    .founder .detail .detail-text #main{
+        font-size: 12px;
+    }
+    .founder .detail .detail-text #sub{
+        font-size: 10px;
+    }
+    footer .row{
+        width: 80%;
+    }
+}
+
+ 
+
+@media(max-width:800px){
+    .head-cont{
+        display: flex;
+        width: 100%;
+        flex-direction: column-reverse;
+
+    }
+    .head-cont .main-cont h1{
+        font-size: 20px;
+        align-items: center;
+    }
 }
 
 /*about page */
+.about_page{
+    line-height: 1.6;
+}
+
 .about_info{
-    max-width: 60%;
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 20px;
-}
-
-.about_title{
-    margin-bottom: 10px;
+    text-align: justify;
 }
 
 .about_info br{
     margin-bottom: 30px;
+}
+
+.about_title{
+    margin-bottom: 10px;
 }
 
 .about_links{
@@ -223,9 +317,10 @@ form button{
 
 .about_links_head{
     font-weight: bold;
-    font-size: 150%;
+    font-size: 130%;
     margin-top: 3px;
     margin-bottom: 3px;
+    text-align: left;
 }
 
 .about_links_head:hover{
@@ -250,8 +345,9 @@ form button{
     align-items: center;
     justify-content: center;
     gap: 5%;
-    border: 1px solid black;
     margin: 0 5% 0 5%;
+    background-color: #252525;
+    border-radius: 25px;
 }
 
 dt{
@@ -272,7 +368,7 @@ dd{
     flex-direction: column;
     justify-content: center;
     width: fit-content;
-    margin: 10px 0 10px 0
+    margin: 10px 0 10px 0;
 }
 
 .figure{
@@ -282,7 +378,8 @@ dd{
 .figure img{
     height: auto;
     max-width: 256px;
-    border: 5px solid black;
+    border: 5px solid #000000;
+    border-radius: 25px;
 }
 
 .members{
@@ -291,8 +388,17 @@ dd{
     justify-content: center;
     margin: 0 5% 0 5%;
     line-height: 1.6;
-    gap: 3%;
-    border: 1px solid black
+    gap: 10px;
+    background-color: #252525;
+    border-radius: 25px;
+}
+
+.mem_box{
+    border-right: 1px solid #ffffff;
+}
+
+.mem_box:nth-child(3){
+    border: 0;
 }
 
 .mem_center{
@@ -300,16 +406,22 @@ dd{
 }
 
 .mem_center img{
-    margin-top: 10px;
-    width: 100%;
+    margin-top: 20px;
+    width: 80%;
     height: auto;
     max-width: 384px;
-    border: 5px solid black;
+    border: 5px solid #000000;
+    border-radius: 25px;
+}
+
+.mem_name{
+    font-weight: bold;
+    font-size: 150%;
 }
 
 .mem_desc{
-    max-width: 384px;
-    text-indent: 40px;
+    margin: 0 10px 0 10px;
+    text-align: justify;
 }
 
 .mem_socials{
@@ -318,26 +430,27 @@ dd{
     justify-content: center;
     gap: 2%;
     font-size: 200%;
-    margin: 2px 0 10px 0;
+    margin: 10px 0 20px 0;
+}
+
+.mem_socials a:hover{
+    color: #f74f10;
+    transition: .5s;
 }
 
 .schedule{
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 5% 0 5%;
+    align-items: center;
 }
 
 .table{
-    display: flex;
-    justify-content: center;
     text-align: center;
     border-collapse: collapse;
+    margin: auto;
+    width: 80%;
 }
 
 td, th{
-    border: 5px solid black;
+    border: 5px solid #000000;
 }
 
 th{
@@ -350,7 +463,7 @@ td{
 
 td:hover, th:hover{
     background-color: #f74f10;
-    transition: 1s;
+    transition: .5s;
 }
 
 .table tr{
@@ -358,6 +471,70 @@ td:hover, th:hover{
 }
 
 .table th{
-    width: 150px;
+    width: 12.5%;
     font-size: 125%;
+}
+
+@media(max-width: 1000px){
+    .about_links_head{
+        font-size: 100%;
+    }
+}
+
+@media(max-width: 800px){
+    .about_info{
+        font-size: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .about_links{
+        flex-direction: column;
+    }
+
+    .about_links_box{
+        margin-bottom: 40px;
+    }
+
+    .about_links_head{
+        font-size: 150%;
+    }
+
+    .team_page{
+        font-size: 80%;
+    }
+
+    .about_group{
+        flex-direction: column;
+    }
+
+    dl{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .members{
+        flex-direction: column;
+    }
+
+    .mem_box{
+        border: 0;
+        border-bottom: 1px solid #ffffff;
+    }
+
+    .mem_box:nth-child(3){
+        border-bottom: 0;
+    }
+
+    .mem_socials{
+        font-size: 200%;
+    }
+
+    .schedule{
+        overflow: scroll;
+    }
+
+    .table{
+        width: 1000px;
+    }
 }
