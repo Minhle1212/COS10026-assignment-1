@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Noto Sans', sans-serif;   
-    color:white;
 }
 body{
     overflow-x: hidden;
@@ -278,25 +277,24 @@ form button{
     margin-top: 30px;
     background-color: #0093c0;
     text-align: center;
-    height: 250px;
     border-radius: 7px;
-
 }
+
 .title h1{
     padding-top: 30px;
     font: 35px;
-    font-family: "calibri"
+    font-family: "calibri";
 }
+
 .title p{
     margin-top: 30px;
-    font-size: 20px; 
+    font-size: 20px;
 }
 
 .jobs{
     display: flex;
     flex-direction: column;
     margin: 40px 5% 0 5%;
-    text-align: justify;
 }
 
 .job{
@@ -357,4 +355,18 @@ aside{
 aside a:hover {
     color: #445abc;
     text-decoration:  underline;
+}
+
+@media(max-width: 800px){
+    .jobs_page{
+        font-size: 90%;
+    }
+
+    .job{
+        flex-direction: column;
+    }
+
+    aside{
+        width: 100%;
+    }
 }
