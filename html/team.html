@@ -29,7 +29,7 @@
         <div class="team_page">
             <!--Group details-->
             <h1 class="about_header">Group details</h1>
-            <div class="about_group">
+            <section class="about_group">
                 <div>
                     <dl>
                         <dt>Group name:</dt>
@@ -58,11 +58,11 @@
                         <figcaption class="mem_name">Dennis</figcaption>
                     </figure>
                 </div>
-            </div>
+            </section>
 
             <!--Group members-->
             <h1 class="about_header">Our members</h1>
-            <div class="members">
+            <section class="members">
                 <div class="mem_box">
                     <div class="mem_center">
                         <img src="../images/minh.jpg" alt="Minh">
@@ -114,7 +114,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         
             <!--Timetable-->
             <h1 class="about_header">Our timetable</h1>
@@ -168,23 +168,26 @@
         <footer>
             <div class="row">
                 <div class="col" id="special-col">
-                    <img src="../images/ava2-removebg-preview.png" class="logo" alt="">
+                    <img src="../images/ava2-removebg-preview.png" class="logo" alt="logo">
                 </div>
-                <div class="col">
-                    <h3>Office <div class="underline"></div></h3>
-                    <p>80 Duy Tan<br>
-                    Dich Vong Hau, Cau Giay<br>
-                    Hanoi, Vietnam</p>
+                <div class="col" id="index_address">
+                    <h3>Office<div class="underline"></div></h3>
+                    <p class="address">80 Duy Tan<br>
+                        Dich Vong Hau, Cau Giay<br>
+                        Hanoi, Vietnam
+                    </p>
                 </div>
-                <div class="col">
-                    <h3>Links <div class="underline"></div></h3>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="jobs.html">Job Description</a></li>
-                    </div>
+                <div class="col" id="index_links">
+                    <h3>Links<div class="underline"></div></h3>
+                    <ol class="index_links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="jobs.html">Job Description</a></li>
+                    </ol>
+                </div>
                 <div class="col">
                     <h3>Any Question?</h3>
-                    <form action="">
+                    <form>
                         <i class="fa-solid fa-inbox"></i>
                         <input type="text" placeholder="Ask then we will answer back">
                         <button type="submit"><i class="fa-regular fa-paper-plane"></i></button>
