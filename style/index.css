@@ -84,7 +84,6 @@ header .login a:hover{
 /* head-cont */
 .head-cont{
     display: flex;
-    
     width: 100%;
     height: 100%;
     justify-content: space-around;
@@ -221,9 +220,6 @@ section .product-head{
     border-radius: 25px;
     width: 80%;
     margin-left: 10%;
-
-    
-    
 }
 .product1 img{
     max-width: 600px;
@@ -461,7 +457,13 @@ form button{
     letter-spacing: 10px;
     text-align: right;
 }
-.col .social i:hover{
+
+.col .social a{
+    color: white;
+    text-decoration: none;
+}
+
+.col .social a:hover{
     zoom: 1.2;
     color: #f74f10;
 }
