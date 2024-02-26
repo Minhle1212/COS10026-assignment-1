@@ -272,274 +272,89 @@ form button{
     }
 }
 
-/*about page */
-.about_page{
-    line-height: 1.6;
+/* title  */
+.title{
+    color: black;
+    margin-top: 30px;
+    background-color: #0093c0;
+    text-align: center;
+    height: 250px;
+    border-radius: 7px;
+
+}
+.title h1{
+    padding-top: 30px;
+    font: 35px;
+    font-family: "calibri"
+}
+.title p{
+    margin-top: 30px;
+    font-size: 20px; 
 }
 
-.about_info{
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 20px;
+.jobs{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 5% 0 5%;
     text-align: justify;
 }
 
-.about_info br{
-    margin-bottom: 30px;
-}
-
-.about_title{
-    margin-bottom: 10px;
-}
-
-.about_links{
+.job{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 5%
+    gap: 10px;
+    line-height: 30px;
+    margin-bottom: 5%;
 }
 
-.about_links_box{
-    display: flex;
-    flex-direction: column;
+.job_info{
+    background-color: rgb(182, 227, 220);
+    border: solid 7px rgb(177, 187, 148);
+    border-radius: 7px;
+    align-self: start;
 }
 
-.about_image{
-    width: 100%;
-    height: auto;
-    max-width: 576px;
+.job_brief{
+    margin: 0 20px 0 20px;
+    color: black;
 }
 
-.about_image:hover{
-    opacity: 70%;
+.job_name{
+    font-size: 30px;
+    margin-top: 20px;
 }
 
-.about_links_head{
-    font-weight: bold;
-    font-size: 130%;
-    margin-top: 3px;
-    margin-bottom: 3px;
-    text-align: left;
-}
-
-.about_links_head:hover{
-    color: #f74f10;
-    transition: .5s;
-}
-
-.about_links_desc{
-    text-align: left;
-}
-
-/*new team page*/
-
-.about_header{
-    text-align: center;
+.job_head{
     margin: 20px 0 20px 0;
 }
 
-.about_group{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 5%;
-    margin: 0 5% 0 5%;
-    background-color: #252525;
-    border-radius: 25px;
+.jobs_ol, .jobs_ul{
+    margin-left: 25px;
 }
 
-dt{
-    font-weight: bold;
-    float: left;
-    width: 128px;
-    clear: both;
-    margin-bottom: 10px;
+#essential, #preferable{
+    margin-bottom: 20px;
 }
 
-dd{
-    margin-left: 128px;
-    margin-bottom: 10px;
+aside{
+    border: dashed 3px;
+    border-radius: 7px;
+    width: 60%;
+    color: rgb(74, 43, 43);
+    font-size: 16px;
+    background-color: #dae1e6;
+    align-self: start;
 }
 
-dd a:hover{
-    color: #f74f10;
-    transition: .5s;
-    text-decoration: underline;
+.job_reqs{
+    margin: 20px;
 }
 
-.tutor_pfp{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: fit-content;
-    margin: 10px 0 10px 0;
-}
-
-.figure{
-    text-align: center;
-}
-
-.figure img{
-    height: auto;
-    max-width: 256px;
-    border: 5px solid #000000;
-    border-radius: 25px;
-}
-
-.members{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 0 5% 0 5%;
-    line-height: 1.6;
-    gap: 10px;
-    background-color: #252525;
-    border-radius: 25px;
-}
-
-.mem_box{
-    border-right: 1px solid #ffffff;
-}
-
-.mem_box:nth-child(3){
-    border: 0;
-}
-
-.mem_center{
-    text-align: center;
-}
-
-.mem_center img{
+.job_reqs h4{
     margin-top: 20px;
-    width: 80%;
-    height: auto;
-    max-width: 384px;
-    border: 5px solid #000000;
-    border-radius: 25px;
 }
 
-.mem_name{
-    font-weight: bold;
-    font-size: 150%;
-}
-
-.mem_desc{
-    margin: 0 10px 0 10px;
-    text-align: justify;
-}
-
-.mem_socials{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 2%;
-    font-size: 200%;
-    margin: 10px 0 20px 0;
-}
-
-.mem_socials a:hover{
-    color: #f74f10;
-    transition: .5s;
-}
-
-.schedule{
-    align-items: center;
-}
-
-.table{
-    text-align: center;
-    border-collapse: collapse;
-    margin: auto;
-    width: 80%;
-}
-
-td, th{
-    border: 5px solid #000000;
-}
-
-th{
-    background-color: #2c3037;
-}
-
-td{
-    background-color: #202530;
-}
-
-td:hover, th:hover{
-    background-color: #f74f10;
-    transition: .5s;
-}
-
-.table tr{
-    height: 75px;
-}
-
-.table th{
-    width: 12.5%;
-    font-size: 125%;
-}
-
-@media(max-width: 1000px){
-    .about_links_head{
-        font-size: 100%;
-    }
-}
-
-@media(max-width: 800px){
-    .about_info{
-        font-size: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-
-    .about_links{
-        flex-direction: column;
-    }
-
-    .about_links_box{
-        margin-bottom: 40px;
-    }
-
-    .about_links_head{
-        font-size: 150%;
-    }
-
-    .team_page{
-        font-size: 80%;
-    }
-
-    .about_group{
-        flex-direction: column;
-    }
-
-    dl{
-        margin-top: 20px;
-        margin-left: 20px;
-    }
-
-    .members{
-        flex-direction: column;
-    }
-
-    .mem_box{
-        border: 0;
-        border-bottom: 1px solid #ffffff;
-    }
-
-    .mem_box:nth-child(3){
-        border-bottom: 0;
-    }
-
-    .mem_socials{
-        font-size: 200%;
-    }
-
-    .schedule{
-        overflow: scroll;
-    }
-
-    .table{
-        width: 1000px;
-    }
+aside a:hover {
+    color: #445abc;
+    text-decoration:  underline;
 }
