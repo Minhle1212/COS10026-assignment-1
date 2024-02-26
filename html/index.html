@@ -13,12 +13,9 @@
 <body>
     <!-- menu-bar -->
     <header class="menu">
-
-        <a href="index.html" class="logo"><img src="../images/ava2-removebg-preview.png" alt=""></a>
-
+        <a href="index.html" class="logo"><img src="../images/ava2-removebg-preview.png" alt="logo"></a>
         <nav class="nav-bar">
             <a href="index.html">Home</a>
-            
             <a href="about.html">About Us</a>
             <a href="jobs.html">Application</a>
         </nav>
@@ -39,7 +36,7 @@
             </div>
         </div>
         <div class="image">
-            <img src="../images/image3-removebg-preview.png">
+            <img src="../images/image3-removebg-preview.png" alt="gameboy">
         </div>
     </div>
     <div class="sub-cont">
@@ -51,7 +48,7 @@
 
     <nav class="second-cont">
         <div class="image">
-            <img src="/images/image8-removebg-preview.png" alt="">
+            <img src="../images/image8-removebg-preview.png" alt="">
         </div>
         <div class="main-cont">
             <h4>our products make self-discovery fun and growthful. we help you cultivate grounded self-awareness and confidence.
@@ -137,7 +134,7 @@
             <br> Apply now!
         </h2>
         <div class="join">
-            <a href="/html/job-list.html"><button>Job Application</button></a>
+            <a href="jobs.html"><button>Job Application</button></a>
         </div>
     </nav>
 
@@ -164,10 +161,12 @@
             </div>
             <div class="col">
                 <h3>Any Question?</h3>
-                <form>
+                <form method="post" action="http://mercury.swin.edu.au/it000000/formtest.php">
                     <i class="fa-solid fa-inbox"></i>
-                    <input type="text" placeholder="Ask then we will answer back">
-                    <button type="submit"><i class="fa-regular fa-paper-plane"></i></button>
+                    <label for="inquiry" aria-label="inquiry">
+                        <input type="text" id="inquiry" name="inquiry" placeholder="Ask here">
+                    </label>
+                    <button type="submit" class="fa-regular fa-paper-plane" aria-label="submit"></button>
                 </form>
                 <div class="social">
                     <i  class="fa-brands fa-facebook"></i>

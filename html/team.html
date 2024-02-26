@@ -15,7 +15,7 @@
 
         <!-- menu-bar -->
         <header class="menu">
-            <a href="index.html" class="logo"><img src="../images/ava2-removebg-preview.png" alt="logo"></a>
+            <a href="index.html" class="logo"><img src="../images/ava2-removebg-preview.png" alt="smarthouse logo"></a>
             <nav class="nav-bar">
                 <a href="index.html">Home</a> 
                 <a href="about.html">About Us</a>
@@ -66,7 +66,7 @@
                 <div class="mem_box">
                     <div class="mem_center">
                         <img src="../images/minh.jpg" alt="Minh">
-                        <p class="mem_name">Le Hoang Minh</p>
+                        <h2 class="mem_name">Le Hoang Minh</h2>
                     </div>
                     <div class="mem_desc">
                         <p>insert a description here oiqfi b qow fwbioq bowb rqobi woqiqwdoqw bibo qbworb</p>
@@ -83,7 +83,7 @@
                 <div class="mem_box">
                     <div class="mem_center">
                         <img src="../images/bao.jpg" alt="Bao">
-                        <p class="mem_name">Bui Gia Bao</p>
+                        <h2 class="mem_name">Bui Gia Bao</h2>
                     </div>
                     <div class="mem_desc">
                         <p>insert a description here oiqfi b qow fwbioq bowb rqobi woqiqwdoqw bibo qbworb</p>
@@ -100,7 +100,7 @@
                 <div class="mem_box">
                     <div class="mem_center">
                         <img src="../images/vinh.jpg" alt="Vinh">
-                        <p class="mem_name">Luong Quang Vinh</p>
+                        <h2 class="mem_name">Luong Quang Vinh</h2>
                     </div>
                     <div class="mem_desc">
                         <p>insert a description here oiqfi b qow fwbioq bowb rqobi woqiqwdoqw bibo qbworb</p>
@@ -187,10 +187,12 @@
                 </div>
                 <div class="col">
                     <h3>Any Question?</h3>
-                    <form>
+                    <form method="post" action="http://mercury.swin.edu.au/it000000/formtest.php">
                         <i class="fa-solid fa-inbox"></i>
-                        <input type="text" placeholder="Ask then we will answer back">
-                        <button type="submit"><i class="fa-regular fa-paper-plane"></i></button>
+                        <label for="inquiry" aria-label="inquiry">
+                            <input type="text" id="inquiry" name="inquiry" placeholder="Ask here">
+                        </label>
+                        <button type="submit" class="fa-regular fa-paper-plane" aria-label="submit"></button>
                     </form>
                     <div class="social">
                         <i  class="fa-brands fa-facebook"></i>
