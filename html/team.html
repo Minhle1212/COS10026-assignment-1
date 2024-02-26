@@ -8,14 +8,14 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <script src="https://kit.fontawesome.com/142309adca.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans:wght@600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/style/about.css">
+        <link rel="stylesheet" href="../style/about.css">
     </head>
 
     <body>
 
         <!-- menu-bar -->
         <header class="menu">
-            <a href="#" class="logo"><img src="../images/ava2-removebg-preview.png" alt=""></a>
+            <a href="index.html" class="logo"><img src="../images/ava2-removebg-preview.png" alt="logo"></a>
             <nav class="nav-bar">
                 <a href="index.html">Home</a> 
                 <a href="about.html">About Us</a>
@@ -29,7 +29,7 @@
         <div class="team_page">
             <!--Group details-->
             <h1 class="about_header">Group details</h1>
-            <div class="about_group">
+            <section class="about_group">
                 <div>
                     <dl>
                         <dt>Group name:</dt>
@@ -58,11 +58,11 @@
                         <figcaption class="mem_name">Dennis</figcaption>
                     </figure>
                 </div>
-            </div>
+            </section>
 
             <!--Group members-->
             <h1 class="about_header">Our members</h1>
-            <div class="members">
+            <section class="members">
                 <div class="mem_box">
                     <div class="mem_center">
                         <img src="../images/minh.jpg" alt="Minh">
@@ -114,7 +114,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         
             <!--Timetable-->
             <h1 class="about_header">Our timetable</h1>
@@ -168,23 +168,26 @@
         <footer>
             <div class="row">
                 <div class="col" id="special-col">
-                    <img src="../images/ava2-removebg-preview.png" class="logo" alt="">
+                    <img src="../images/ava2-removebg-preview.png" class="logo" alt="logo">
                 </div>
-                <div class="col">
-                    <h3>Office <div class="underline"></div></h3>
-                    <p>80 Duy Tan<br>
-                    Dich Vong Hau, Cau Giay<br>
-                    Hanoi, Vietnam</p>
+                <div class="col" id="index_address">
+                    <h3>Office<div class="underline"></div></h3>
+                    <p class="address">80 Duy Tan<br>
+                        Dich Vong Hau, Cau Giay<br>
+                        Hanoi, Vietnam
+                    </p>
                 </div>
-                <div class="col">
-                    <h3>Links <div class="underline"></div></h3>
-                    <li><a href="../html/index.html">Home</a></li>
-                    <li><a href="../html/about.html">About Us</a></li>
-                    <li><a href="../html/jobs.html">Job Description</a></li>
-                    </div>
+                <div class="col" id="index_links">
+                    <h3>Links<div class="underline"></div></h3>
+                    <ol class="index_links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="jobs.html">Job Description</a></li>
+                    </ol>
+                </div>
                 <div class="col">
                     <h3>Any Question?</h3>
-                    <form action="">
+                    <form>
                         <i class="fa-solid fa-inbox"></i>
                         <input type="text" placeholder="Ask then we will answer back">
                         <button type="submit"><i class="fa-regular fa-paper-plane"></i></button>
