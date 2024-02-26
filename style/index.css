@@ -587,4 +587,97 @@ form button{
         font-size: 20px;
         align-items: center;
     }
+
+    .sub-cont p{
+        font-size: 10px;
+    }
+    .sub-cont h2{
+        font-size: 18px;
+    }
+    .second-cont .image img{
+        width: 200px;
+    }
+    .second-cont .main-cont h4{
+        font-size: 12px;
+    }
+    .product-head p{
+        font-size: 10px;
+    }
+    .product-head h2{
+        font-size: 18px;
+    }
+    .product1{
+        display: flex;
+        flex-direction: column;
+    }
+    section .product1 .image img{
+        width: 250px;
+        margin-left: 200px;
+    }
+    section .product1 .product-cont h3{
+        font-size: 15px;
+        margin-top: 0;
+    }
+    section .product1 .product-cont p{
+        font-size: 12px;
+        margin-top: 0;
+        
+    }
+    section .product1 .product-cont .join button{
+        margin-top: 2px;
+        width: 150px;
+        font-size: 10px;
+        height: 30px;
+    }
+    .product2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    section .product2 .image img{
+        width: 250px;
+        margin-top: 50px;
+       
+    }
+    section .product2 .product-cont h3{
+        font-size: 15px;
+        
+    }
+    section .product2 .product-cont p{
+        font-size: 12px;
+       
+        
+    }
+    section .product2 .product-cont .join button{
+        margin-top: 2px;
+        width: 150px;
+        font-size: 10px;
+        height: 30px;
+    }
+
+    .founder .detail{
+        display: flex;
+        flex-direction: column;
+    }
+    .founder .detail .detail-img{
+        margin-left: 100px;
+    }
+    .founder .detail .detail-text{
+        margin-left: 200px;
+    }
+    .founder .detail .detail-text #main{
+        margin-top: 0;
+    }
+    .founder .detail .detail-text #sub{
+        margin-top: 0;
+    }
+    .sub{
+        height: 250px;
+    }
+    .sub h2{
+        font-size: 20px;
+    }
+    .sub .join button{
+        margin-top: 0;
+    }
  }
